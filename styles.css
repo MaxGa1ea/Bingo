@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Comfortaa;
+    object-align: center;
+    text-align: center
+}
+
+table {
+    height: 50%;
+    width: 100%
+}
+
+table, tr, td {
+    padding: 24px;
+    text-align: center;
+}
+
+td {
+    font-size: 24px;
+    background: var(--main);
+    color: var(--contrast);
+    font-weight: bold;
+}
+
+.active {
+    background: var(--contrast) !important;
+    color: white !important
+}
+
+#Number {
+    color: var(--contrast);
+    text-align: center;
+    font-weight: bold;
+    font-size: 64px
+}
+
+#click {
+    padding: 24px 256px;
+    background: var(--contrast);
+    color: white;
+    border-radius: 128px;
+    object-align: center;
+    text-align: center;
+    font-size: 32px
+}
+
+#click:hover {
+    background: var(--dark);
+    box-shadow: 5px 5px var(--contrast)
+}
+
+#Submit {
+    padding: 8px 64px;
+    background: var(--contrast);
+    color: white;
+    border-radius: 128px;
+    object-align: center;
+    text-align: center;
+    font-size: 12px
+}
+
+#Submit:hover {
+    background: var(--dark);
+    box-shadow: 5px 5px var(--contrast)
+}
+
+#Color {
+    background: var(--contrast);
+    border-radius: 128px;
+    padding: 8px;
+    color: white
+}
+
+#Color:hover {
+    background: var(--dark);
+    box-shadow: 5px 5px var(--contrast)
+}
+
+#Restart {
+    padding: 8px 64px;
+    background: var(--contrast);
+    color: white;
+    border-radius: 128px;
+    object-align: center;
+    text-align: center;
+    font-size: 12px
+}
+
+#Restart:hover {
+    background: var(--dark);
+    box-shadow: 5px 5px var(--contrast)
+}
